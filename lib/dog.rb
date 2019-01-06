@@ -1,11 +1,11 @@
 class Dog
-def name=(dog_name)
+def name=(dog_name)  #setter method
   @name = dog_name
 end
 def breed=(breed_name)
   @breed = breed_name
 end
-def name
+def name             #getter method   
   @name
 end
 def breed
@@ -13,7 +13,7 @@ def breed
 end
 end
 
-fido = Dog.new
+fido = Dog.new  #objects created outside of class
 fido.name
 snoopy = Dog.new
 snoopy.breed
